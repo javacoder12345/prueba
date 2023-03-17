@@ -1,5 +1,4 @@
 package pruDB;
-//Ejemplo de Git
 
 import java.sql.Connection;
 import java.sql.DriverManager;
