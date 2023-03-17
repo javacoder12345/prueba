@@ -1,8 +1,6 @@
 package pruDB;
 //Ejemplo de Git
-//Esto va bien
-//O no
-//Vamos a ver
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -31,7 +29,7 @@ public class PruDB {
 //			rs.close();
 //			stmt.close();
 			
-			//SELECT MÚLTIPLE
+			//SELECT MÃšLTIPLE
 		PreparedStatement sel_pstmt = con.prepareStatement("SELECT * FROM persona WHERE edad>?");
 			
 			sel_pstmt.setInt(1, 2);
